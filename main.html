@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="container">
@@ -20,14 +19,14 @@
             <input type="password" class="forminput" id="password" name="password" placeholder="Password" required><br>
             <input type="password" class="forminput" id="cpassword" name="password" placeholder="Confirm Password" required><br>
             <input type="text" class="forminput" id="dob" name="dob" placeholder="DOB" required><br>
-            <input type="radio" class="radiobtn" id="emps" name="employmentstatus" required><i class="fa-thin fa-circle"></i>   Student
-            <input type="radio"  class="radiobtn" id="empe" name="employmentstatus" required><i class="fa-light fa-circle"></i> Employee <br>
-            <input type="checkbox" id="terms" name="termsnconditions" required> <i class="fa-thin fa-square"></i>I agree to all the Terms and Conditions<br>
+            <input type="radio" class="radiobtn" id="emps" name="employmentstatus" value="student" required><label for="emps"  class="label1">  Student</label>
+            <input type="radio"  class="radiobtn" id="empe" name="employmentstatus" value="employee" required>
+            <label for="empe"  class="label2">  Employee 
+            </label><br>
+            <input type="checkbox" id="terms" name="termsnconditions" required> <span class="cbox" ></span><label for="empe" name="employmentstatus" class="label3">I agree to all the Terms and Conditions</label><br>
             <button type="submit" id="signup" >
                 Signup
             </button>
-
-
         </form>
     </div>
     
