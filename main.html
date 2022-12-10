@@ -9,19 +9,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="container">
         <h1 class="heading">Signup</h1>
         <form method="GET" action="" class="formelements">
-            <input type="text" id="name" name="name" placeholder="Full Name" required><br>
-            <input type="email" id="email" name="email" placeholder="Email" required><br>
-            <input type="password" id="password" name="password" placeholder="Password" required><br>
-            <input type="password" id="cpassword" name="password" placeholder="Confirm Password" required><br>
-            <input type="text" id="dob" name="dob" placeholder="DOB" required><br>
-            <input type="radio" id="emp" name="employmentstatus" required> Student
-            <input type="radio" id="emp" name="employmentstatus" required> Employee <br>
-            <input type="checkbox" id="terms" name="termsnconditions" required> I agree to all the Terms and Conditions<br>
+            <input type="text" class="forminput" id="name" name="name" placeholder="Full Name" required><br>
+            <input type="email" class="forminput" id="email" name="email" placeholder="Email" required><br>
+            <input type="password" class="forminput" id="password" name="password" placeholder="Password" required><br>
+            <input type="password" class="forminput" id="cpassword" name="password" placeholder="Confirm Password" required><br>
+            <input type="text" class="forminput" id="dob" name="dob" placeholder="DOB" required><br>
+            <input type="radio" class="radiobtn" id="emps" name="employmentstatus" required><i class="fa-thin fa-circle"></i>   Student
+            <input type="radio"  class="radiobtn" id="empe" name="employmentstatus" required><i class="fa-light fa-circle"></i> Employee <br>
+            <input type="checkbox" id="terms" name="termsnconditions" required> <i class="fa-thin fa-square"></i>I agree to all the Terms and Conditions<br>
             <button type="submit" id="signup" >
                 Signup
             </button>
